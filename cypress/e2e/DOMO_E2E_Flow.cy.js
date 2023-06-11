@@ -6,6 +6,7 @@ import {
 } from "../support/util";
 import * as selectors from "../fixtures/selectors";
 
+//DOMO Validations
 describe("DOMO Validations", () => {
   let isComment = false;
   const base_url = Cypress.env("BASE_URL");
