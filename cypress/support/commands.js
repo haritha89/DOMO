@@ -28,3 +28,7 @@ import '@testing-library/cypress/add-commands'
 Cypress.Screenshot.defaults({
     screenshotOnRunFailure: false,
   })
+
+  import 'cypress-downloadfile/lib/downloadFileCommand';
+
+

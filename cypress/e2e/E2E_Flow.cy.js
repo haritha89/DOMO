@@ -34,7 +34,7 @@ describe("Login", () => {
     cy.get(selectors.invalidLogin).should("have.text", expectedText);
   });
 
-  it.only("Contact Us Form ", () => {
+  it("Contact Us Form ", () => {
     const expectedText = "Success! Your details have been submitted successfully.";
     let assertedValue;
     cy.get(selectors.contactUsLink).click();
